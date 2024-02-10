@@ -8,6 +8,15 @@ This step transforms original dataset by:
 ```python
 python preprocess.py --src source_dir --dst output_dir
 ```
-* `source_dir`: the original dataset from social platform (csv format)
-* `output_dir`: the output dataset after preprocessing (csv format)
+* `source_dir`: The original dataset from social platform (csv format)
+* `output_dir`: The output dataset after preprocessing (csv format)
 ## Cosine Similarity Calculation
+This step calculates cosine similarity between tweets and given psychology terms in ItemList.
+```python
+python calculate.py --src source_dir --dst output_dir
+```
+* `source_dir`: Csv file after preprocess function (csv format)
+* `output_dir`: Cosine similarity output. Each column is named by FactorList (csv format)
+In addition, two dictionairies could be set in `calculate.py`:
+* `ItemList`: Psychology terms need calculating
+* `FactorList`: Column name in the final file
