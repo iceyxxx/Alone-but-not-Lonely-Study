@@ -17,6 +17,7 @@ python calculate.py --src source_dir --dst output_dir
 ```
 * `source_dir`: Csv file after preprocess function (csv format)
 * `output_dir`: Cosine similarity output. Each column is named by FactorList (csv format)
+
 In addition, two dictionairies could be set in `calculate.py`:
 * `ItemList`: Psychology terms need calculating
 * `FactorList`: Column name in the final file
