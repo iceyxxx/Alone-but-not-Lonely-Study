@@ -2,9 +2,9 @@
 ## Setup
 ## Data Preprocessing
 This step transforms original dataset by:
-    * removing emojis, urls, hashtags
-    * changing real user ids to virtual ones
-    * saving time, virtual id, cleaned text only
+* removing emojis, urls, hashtags
+* changing real user ids to virtual ones
+* saving time, virtual id, cleaned text only
 ```python
 python preprocess.py --src source_dir --dst output_dir
 ```
