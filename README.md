@@ -20,4 +20,4 @@ python calculate.py --src source_dir --dst output_dir
 
 In addition, two dictionairies could be set in `calculate.py`:
 * `ItemList`: Psychology terms need calculating
-* `FactorList`: Column name in the final file
+* `FactorList`: Column names in the final file
