@@ -5,6 +5,7 @@ Results could be generated through two steps below.
 ## Setup
 * python 3.8
 * [sentence-transformers](https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2)
+* Other packages could be found in `requirements.txt`
 ## Data Preprocessing
 This step transforms original dataset by:
 * removing emojis, urls, hashtags
