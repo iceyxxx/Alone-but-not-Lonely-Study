@@ -1,4 +1,5 @@
 # Alone but not Lonely - Study 1
+This code serves for paper [Alone but Not Lonely: Awe Fosters Positive Attitudes Toward Solitude - Study 1](https://www.researchgate.net/publication/374008401_Alone_but_Not_Lonely_Awe_Fosters_Positive_Attitudes_Toward_Solitude).
 ## Setup
 ## Data Preprocessing
 This step transforms original dataset by:
