@@ -28,4 +28,4 @@ In addition, two dictionairies could be set in `calculate.py`:
 * `ItemList`: Psychology terms need calculating
 * `FactorList`: Column names in the final file
 ## Reference
-[text2vec](https://github.com/shibing624/text2vec)
+* [shibing624 - text2vec](https://github.com/shibing624/text2vec)
